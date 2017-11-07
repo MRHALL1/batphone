@@ -5,3 +5,4 @@
 [submodule "jni/libsodium"]
 	path = app/src/main/jni/libsodium
 	url = https://github.com/jedisct1/libsodium.git
+

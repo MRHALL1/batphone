@@ -37,7 +37,7 @@
 		android:layout_height="wrap_content">
 
 		<TextView android:id="@+id/donate_header"
-			android:layout_below="@id/headerLayout" 
+
 			style="@style/shelpscreensheader"
 			android:text="@string/donateTitle" />
 
@@ -53,7 +53,7 @@
 	     style="@style/sbtnrhizome"
 	     android:layout_alignParentBottom="true"
 	     android:layout_centerHorizontal="true"
-	     android:layout_below="@+id/donatebrowser"
+
     	android:text="@string/donateButton" />
 	
     	<!-- Pre HTML Based Help -->	   

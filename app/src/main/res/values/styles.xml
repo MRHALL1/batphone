@@ -295,9 +295,9 @@
  	</style> 
  	
  	<style name="smainTableRow2" parent="smainTableRow">
-   		<item name="android:layout_span">2</item>	
+   		<item name="android:layout_span">2</item>
 		<item name="android:gravity">center</item>	
- 	</style> 
+ 	</style>
  	
    	<style name="smeshTableRow" parent="smainTableRow">
 		<item name="android:layout_marginRight">5sp</item> 

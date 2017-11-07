@@ -172,6 +172,33 @@
 			
 		</TableRow>
 
+		<!-- This is a new addition for the emergency button. -->
+		<TableRow
+			android:id="@+id/tableRow3a"
+			style="@style/smainTableRow">
+
+			<ImageView
+				android:id="@+id/settingsLabel"
+				style="@style/smainTableIcon"
+				android:layout_height="match_parent"
+				android:contentDescription="@string/settingsLabel"
+				android:src="@drawable/ic_launcher_help" />
+
+
+
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/tableRow3b"
+			style="@style/smainTableRow">
+
+			<TextView
+				android:id="@+id/settingsText"
+				style="@style/smainTableRowText"
+				android:text="@string/emergencyLabel" />
+
+
+		</TableRow>
 </TableLayout> 
 
 	<RelativeLayout android:layout_width="fill_parent"

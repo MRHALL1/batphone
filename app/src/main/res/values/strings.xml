@@ -46,6 +46,7 @@
     <string name="powerLabel">Power</string>    
     <string name="helpLabel">Help</string>	
     <string name="connectLabel">Connect</string>
+    <string name="emergencyLabel">Emergency</string>
 
     <string name="state_installing">Installing&#8230;</string>
     <string name="state_upgrading">Upgrading&#8230;</string>
