@@ -42,7 +42,8 @@ HOST="aarch64-linux-android"
 # export ANDROID_NDK="$HOME/Library/Android/sdk/ndk-bundle"
 export ANDROID_NDK=$ANDROID_NDK_HOME
 
-export NDK_PLATFORM="$ANDROID_NDK/platforms/android-$API_LEVEL/arch-arm"
+export NDK_PLATFORM=$API_LEVEL
+# "$ANDROID_NDK/platforms/android-$API_LEVEL/arch-arm"
 export NDK_TOOLCHAIN=""
 # export NDK_TOOLCHAIN="$ANDROID_NDK/toolchains/$HOST-4.9/prebuilt/linux-x86_64"
 # export NDK_TOOLCHAIN="$ANDROID_NDK/toolchains/$HOST-4.9/prebuilt/linux-x86_64"

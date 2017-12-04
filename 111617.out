@@ -1,0 +1,29 @@
++ source sourceme.sh
+++ export JDK_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-4.b16.fc26.x86_64
+++ JDK_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-4.b16.fc26.x86_64
+++ export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-4.b16.fc26.x86_64
+++ JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.111-4.b16.fc26.x86_64
+++ export ANDROID_HOME=/home/appdev/myandroidsdk/android-sdk/android-sdk-linux/
+++ ANDROID_HOME=/home/appdev/myandroidsdk/android-sdk/android-sdk-linux/
+++ export JDK_HOME=/usr/lib/jvm/java-1.7.0-openjdk
+++ JDK_HOME=/usr/lib/jvm/java-1.7.0-openjdk
+++ export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk
+++ JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk
+++ export PATH=/usr/lib/jvm/java-1.7.0-openjdk/bin/:/usr/lib/jvm/java-1.7.0-openjdk/bin/:/sbin:/bin:/usr/sbin:/usr/bin:/home/appdev/myandroidsdk/android-ndk-r15c/build/core/toolchains
+++ PATH=/usr/lib/jvm/java-1.7.0-openjdk/bin/:/usr/lib/jvm/java-1.7.0-openjdk/bin/:/sbin:/bin:/usr/sbin:/usr/bin:/home/appdev/myandroidsdk/android-ndk-r15c/build/core/toolchains
+++ export ANDROID_NDK_HOME=/home/appdev/myandroidsdk/android-ndk-r15c
+++ ANDROID_NDK_HOME=/home/appdev/myandroidsdk/android-ndk-r15c
+++ export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk
+++ JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk
+++ unset CC
+++ unset CCX
+++ API_LEVEL=18
+++ API_LEVEL=16
+++ HOST=aarch64-linux-android
+++ export ANDROID_NDK=/home/appdev/myandroidsdk/android-ndk-r15c
+++ ANDROID_NDK=/home/appdev/myandroidsdk/android-ndk-r15c
+++ export NDK_PLATFORM=16
+++ NDK_PLATFORM=16
+++ export NDK_TOOLCHAIN=
+++ NDK_TOOLCHAIN=
++ ./gradlew assembleDebug --debug

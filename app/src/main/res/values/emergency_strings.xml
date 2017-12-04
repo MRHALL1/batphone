@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ This is a new strings file following the same level of abstraction used in the Serval project.
+ These are both used to display strings in the emergency XML file
+ -->
+
+<!-- @author Mackenzie Hall -->
+
+<resources>
+
+    <!-- Serval Emergency -->
+    <string name="emergency_header">Emergency</string>
+    <string name="emergency_info">The purpose of this section is to provide your GPS coordinates to a service that can plot users on a map, should it ever be neccessary. This can help effectively secure campus in the event of an emergency.</string>
+    <string name="emergency_location_info">Your location is:\n</string>
+    <string name="emergency_info_for_btn1">The button below will provide you with your current GPS location.</string>
+    <string name="emergency_info_for_btn2">\n The next button is intended for emergency use. It will send your best approximate GPS location to a remote mapping service in the event emergency services or university officials should need to know your location.</string>
+    <string name="emergency_btn1">Retrieve\nLocation</string>
+    <string name="btnLocationUpdates">Location\nUpdates</string>
+    <string name="emergency_btn2">EMERGENCY\nSend Location</string>
+    <string name="txtCoordinates">36.1047161 / -86.799412</string>
+
+
+    <string name="emergency_ui_btn_location">Retrieve GPS\nLocation</string>
+
+</resources>

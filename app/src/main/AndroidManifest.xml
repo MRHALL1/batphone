@@ -91,6 +91,9 @@
 
 	<!-- new permission for GPS Restriction -->
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+	<!-- <uses-permission android:name="android.hardware.location.gps"/> It is called below but is needed for andorid API 21 and higher to use gps location services/-->
 
 
 	<!-- uses features -->
@@ -99,8 +102,8 @@
 	<uses-feature android:name="android.hardware.bluetooth" android:required="false" />
 	<uses-feature android:name="android.hardware.telephony" android:required="false" />
 	<uses-feature android:name="android.hardware.microphone" android:required="false" />
-	<!--uses-feature android:name="android.hardware.location" android:required="false" />
-	<uses-feature android:name="android.hardware.location.gps" android:required="false" /-->
+	<uses-feature android:name="android.hardware.location" android:required="false" />
+	<uses-feature android:name="android.hardware.location.gps" android:required="true" />
 	<!--uses-feature android:name="android.hardware.camera.autofocus" android:required="false" /-->
 	<uses-feature android:name="android.hardware.touchscreen" android:required="false" />
 	
@@ -110,7 +113,7 @@
         android:allowBackup="true"
 		android:name=".ServalBatPhoneApplication">
 
-		<activity android:name="com.google.android.gms.location.sample.basiclocationsample"></activity><!-- This is new for referencing location -->
+		<!--<activity android:name="com.google.android.gms.location.sample.basiclocationsample"></activity>--><!-- This is new for referencing location -->
         
         <activity android:name="PreparationWizard"
             android:screenOrientation="portrait">
@@ -335,6 +338,14 @@
 		    android:screenOrientation="portrait"
             android:launchMode="singleTop"
 		    />
+
+
+        <!-- Lipscomb Emergency GPS Service -->
+
+		<activity android:name=".ui.EmergencyScreenActivity"
+			android:screenOrientation="portrait"
+			android:launchMode="singleTop"
+			/>
 
     </application>
 

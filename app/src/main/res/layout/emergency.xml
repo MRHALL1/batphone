@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ author: Mackenzie Hall 2017. Addition to base Serval Code
+ -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <!-- Header -->
+
+    <include
+        android:id="@+id/headerLayout"
+        layout="@layout/header_layout" />
+    <!-- Body -->
+
+    <TextView
+        android:id="@+id/emergency_header"
+        style="@style/emergency_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/logot_image"
+        android:text="@string/emergency_header" />
+
+    <TextView
+        android:id="@+id/emergency_info"
+        style="@style/stextleft"
+        android:layout_below="@+id/emergency_header"
+        android:text="@string/emergency_info"
+        />
+
+    <TextView
+        android:id="@+id/emergency_info_for_btn1"
+        style="@style/stextleft"
+        android:layout_below="@+id/emergency_info"
+        android:text="@string/emergency_info_for_btn1"
+        />
+
+    <Button
+        android:id="@+id/emergency_btn1"
+        style="@style/sbtnrhizomeleft"
+        android:layout_below="@+id/emergency_info_for_btn1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/emergency_btn1" />
+
+    <Button
+        android:id="@+id/btnLocationUpdates"
+        style="@style/sbtnrhizomeright"
+        android:layout_below="@+id/emergency_info_for_btn1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btnLocationUpdates" />
+
+    <TextView
+        android:id="@+id/emergency_location_info"
+        style="@style/stext"
+        android:layout_below="@+id/emergency_btn1"
+        android:text="@string/emergency_location_info"
+        />
+
+    <TextView
+        android:id="@+id/txtCoordinates"
+        style="@style/srhizome_text2"
+        android:layout_below="@+id/emergency_location_info"
+        android:text="@string/txtCoordinates"
+        />
+
+    <TextView
+        android:id="@+id/emergency_info_for_btn2"
+        style="@style/stextleft"
+        android:layout_below="@+id/txtCoordinates"
+        android:text="@string/emergency_info_for_btn2"
+        />
+    <Button
+        android:id="@+id/emergency_btn2"
+        style="@style/sbtnrhizome"
+        android:layout_below="@+id/emergency_info_for_btn2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/emergency_btn2" />
+
+</RelativeLayout>

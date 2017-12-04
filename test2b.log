@@ -1,0 +1,22 @@
+Script started on 2017-11-16 12:14:03-0500
+bash-4.4$ source ./sourceme.sh
+bash-4.4$ ls
+103117.gradlew.assembleDebugassembleDebug.out.test  CURRENT-RELEASE.md					PRIVACY.md
+103117.gradlew.build.out.test			    DEVELOP.md						README.md
+111617.log					    doc							runme.out
+111617.out					    google_play						runme.sh
+aa						    gradle						settings.gradle
+app						    gradle.properties					sourceme.sh
+app-debug.apk					    gradlew						sourceme.sh.bk1
+art						    gradlew:app:pandocDebugCC-BY-4.0.md.out		sourceme.sh.new
+batphone.iml					    gradlew.bat						sourceme.sh.works
+build						    INSTALL.md						submodule.1
+build.gradle					    libsodium-53e25ae8e508e30415c9ba5b8abb45961dd23f52	test2b.log
+build.gradle.orig				    libsodium.git					test2.log
+CC-BY-4.0.md					    LICENSE-DOCUMENTATION.md				test.c
+cc-by-4.0.png					    LICENSE-SOFTWARE.md					test.o
+COPYING						    local.properties
+CREDITS.md					    mynew.libsodium.git
+bash-4.4$ exit
+
+Script done on 2017-11-16 12:14:39-0500
